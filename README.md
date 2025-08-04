@@ -1,2 +1,2 @@
 # demo-dao-jdbc
-Praticando Padraon de Projeto DAO (Estudando)
+Praticando Padrao de Projeto DAO (Estudando)
