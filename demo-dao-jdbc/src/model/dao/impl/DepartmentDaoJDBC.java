@@ -56,7 +56,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 		PreparedStatement st = null;
 		try {
 			st = conn.prepareStatement("UPDATE department "
-				+ "SET Name = ? " + "WHERE Id = ?");
+					+ "SET Name = ? " + "WHERE Id = ?");
 
 			st.setString(1, obj.getName());
 			st.setInt(2, obj.getId());
@@ -142,5 +142,5 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 			DB.closeStatement(st);
 			DB.closeResultSet(rs);
 		}
-	}	
+	}
 }
